@@ -12,11 +12,11 @@
 <a:form action = "Success" method="POST">
 <tr>
 <th> Product Name: </th>
-<td> <a:input path=""/> </td>
+<td> <a:input path="product_name"/> </td>
 </tr>
 <tr> 
 <th> Product Price: </th>
-<td> <a:input path=""/> </td>
+<td> <a:input path="price"/> </td>
 </tr>
 <tr> 
 <th> Quantity: </th>
@@ -24,7 +24,7 @@
 </tr>
 <tr>
 <th> Category: </th>
-<td> <a:select path="" items=""></a:select> </td>
+<td> <a:select path="quantity" items="${cato}"></a:select> </td>
 </tr>
 <tr>
 <td><input type="submit" value="Add Products"></td>

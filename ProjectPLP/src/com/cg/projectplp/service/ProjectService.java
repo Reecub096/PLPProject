@@ -1,5 +1,10 @@
 package com.cg.projectplp.service;
 
-public interface ProjectService {
+import java.util.List;
 
+import com.cg.projectplp.beans.Inventory;
+
+public interface ProjectService {
+	
+	public List<Inventory> getProductList();
 }

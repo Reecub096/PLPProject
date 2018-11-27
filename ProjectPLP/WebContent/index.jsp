@@ -11,7 +11,7 @@
 <a href="AddProducts"> Add Products </a>
 <br>
 <br>
-<a href=""> View Products </a>
+<a href="ProductView"> View Products </a>
 <br>
 <br>
 <a href=""> Update Products </a>
